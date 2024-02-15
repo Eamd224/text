@@ -1,0 +1,68 @@
+body {
+	background-color: papayawhip;
+	margin: 0;
+	padding: 0;
+   font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: white;
+	padding: 20px 0;
+}
+
+.nav {
+	background-color: papayawhip;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 50px;
+}
+.logo {
+	font-size: 1.5em;
+}
+
+.nav-links {
+	list-style: none;
+	display: flex;
+}
+.nav-links li {
+	margin-right: 20px;
+}
+
+.nav-links li a {
+	color: darkblue;
+}
+
+.nav-links li a:hover {
+	color: green;
+}
+
+
+
+
+
+/*.footer {*
+	width: 100%;
+	background-color: white;
+	color: black;
+	padding: 20px;
+}
+
+.contact-info p {
+	margin: 5px 0;
+}
+
+.social-links a {
+	margin-right: 10px;
+}
+
+.social-links img {
+	width: 30px;
+	height: 30px;
+}
+
+.footer p {
+	font-size: 0.8em;
+}
+
